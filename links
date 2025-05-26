@@ -1,0 +1,34 @@
+https://github.com/CorsoMaggio/link-utili/tree/main
+https://github.com/CorsoMaggio/corsohtml/blob/main/lezione003/traccia.txt
+https://www.lipsum.com/
+https://picsum.photos/
+
+
+
+git commit -m "primo commit su github"
+
+
+git config --global user.email "alebonazzi22@gmail.com"
+git config --global user.name "AlessandroBonazzi"
+
+
+git config --global user.email ""
+git config --global user.name ""
+
+----
+git add .
+git commit -m "primo commit su github"
+
+git push
+git push --set-upstream origin main
+
+
+git remote add origin git@github.com:CorsoMaggio/Bonazzi_esercizio_git.git
+
+
+----
+git add .
+git commit -m "Modifica file"
+git push
+
+

@@ -1,0 +1,48 @@
+Tutte le pagine condividono questa struttura:
+	•	<!DOCTYPE html> per indicare il tipo di documento.
+	•	<html lang="it"> come contenitore principale.
+	•	<head> con metadati (titolo della pagina).
+	•	<body> suddiviso in:
+	•	<header>: contiene il logo o titolo del sito e la <nav> con il menu.
+	•	<main>: contenuto principale della pagina.
+	•	<footer>: copyright o contatti.
+
+⸻
+
+Pagina 1: Homepage (index.html)
+
+Obiettivo: dare il benvenuto e mostrare contenuti recenti.
+
+Struttura del <main>:
+	•	<section>: benvenuto e introduzione al sito.
+	•	<section>: elenco di novità o articoli.
+	•	Ogni contenuto può essere un <article> con:
+	•	<h3> per il titolo dell’articolo
+	•	<p> per il testo
+	•	Puoi usare <div> per layout interni se necessario.
+
+⸻
+
+Pagina 2: Chi sono (chi-sono.html)
+
+Obiettivo: presentare la persona/azienda dietro il sito.
+
+Struttura del <main>:
+	•	<section>: descrizione personale o biografia.
+	•	Uso di <p> e magari di <span> per evidenziare parti di testo.
+	•	<section>: elenco competenze o esperienze.
+	•	Uso di <ul> con <li>.
+
+⸻
+
+Pagina 3: Contatti (contatti.html)
+
+Obiettivo: fornire un modulo per contattare e informazioni di contatto.
+
+Struttura del <main>:
+	•	<section>: modulo di contatto.
+	•	<form> con campi:
+	•	<label> e <input> per nome ed email.
+	•	<textarea> per il messaggio.
+	•	<button> per l’invio.
+	•	Puoi racchiudere gruppi di input in <div>.
